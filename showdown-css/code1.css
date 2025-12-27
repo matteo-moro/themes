@@ -1,0 +1,480 @@
+html,
+* {
+    font-family: Calibri, 'Ubuntu', FontAwesome !important;
+    letter-spacing: 0.3px;
+}
+.header {
+    background: none !important;
+    background-color: #222 !important;
+    border: 0 !important;
+}
+.ps-popup {
+    background: #1a1a1a !important;
+}
+.roomtab {
+    background-color: #3d3d3d !important;
+    border: 1px solid #333 !important;
+    border-bottom: 0 !important;
+    box-shadow: none !important;
+    padding-bottom: 10px !important;
+}
+.notifying {
+    background-color: #3a0000 !important;
+}
+.cur {
+    background-color: #222 !important;
+}
+.maintabbarbottom {
+    background-color: #444 !important;
+    border: none !important;
+    box-shadow: 0 1px 1px !important;
+}
+.ps-room {
+    border: 1px solid #222 !important;
+}
+.ps-room-light {
+    background: #222 !important;
+}
+.ilink {
+    color: lightgray !important;
+    border: 1px solid #4f4f4f !important;
+    background-color: #1a1a1a !important;
+}
+.pm-window > h3 {
+    background: #1a1a1a !important;
+    border: 1px solid #222 !important;
+}
+.pm-log {
+    background-color: #333 !important;
+    border: 1px solid #222 !important;
+    border-bottom-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+}
+.newsentry {
+    border-bottom: 1px solid #222 !important;
+    color: #c1c1c1 !important;
+}
+.unread {
+    background: none !important;
+}
+.select {
+    background: rgba(112, 112, 112, 1) !important;
+    color: #e1e1e1 !important;
+}
+.button.mainmenu1,
+.button.mainmenu2,
+.button.mainmenu3,
+.button.mainmenu4,
+.button.mainmenu5 {
+    background: #404040 !important;
+    border: 1px #000;
+}
+
+.button.mainmenu1:hover,
+.button.mainmenu2:hover,
+.button.mainmenu3:hover,
+.button.mainmenu4:hover,
+.button.mainmenu5:hover {
+    background: #808080 !important;
+    border: 1px #000;
+}
+
+.select > strong {
+    color: white !important;
+}
+
+.battle,
+.innerbattle {
+    border: none !important;
+}
+
+.controls {
+    background-color: #1a1a1a !important;
+}
+
+.battle-log {
+    background-color: #222 !important;
+    border: none !important;
+}
+
+.userlist {
+    background-color: #2d2d2d !important;
+    border: none !important;
+}
+
+.battle-history {
+    border: none !important;
+    padding: 2px !important;
+}
+
+.inner > h2 {
+    background-color: #2a2a2a !important;
+    padding-left: 10px !important;
+}
+
+.inner > .mine {
+    background-color: #222 !important;
+}
+
+.battle-log-add {
+    background-color: #2d2d2d !important;
+    border: none !important;
+}
+
+.text-area {
+    border-color: #555 !important;
+}
+
+.span {
+    text-shadow: none !important;
+}
+
+.tabbar.maintabbar {
+    margin-bottom: -1px !important;
+}
+#header,
+#wrapper .header,
+.pfx-topbar,
+.pfx-topbar.header,
+.ps-header {
+    background: #0D0D0D;
+    border: 0
+}
+#header,
+#wrapper .header {
+    height: 45px
+}
+.pfx-topbar,
+.pfx-topbar.header {
+    height: 60px
+}
+
+.logo {
+    display: none !important;
+}
+#header:after,
+.nav-first img,
+.ps-nav li a img {
+    /*content: url("http://i.imgur.com/1nGotRD.png");*/
+  	display: inline-block;
+  	width: 40px;
+  	height: 40px;
+  	margin-left: 10px;
+  	margin-top:5px;
+ 	  content: " ";
+  	background: url("https://pokemonshowdown.com/images/icon.png") no-repeat 0 0;        
+   	background-size: 100%;
+    z-index: 1;
+    position: relative;
+
+}
+
+.userbar {
+    top: 10px;
+}
+.maintabbarbottom {
+    background: #4675aa;
+    border: none;
+    bottom: -10px;
+    height: 10px;
+}
+.tabbar a.button {
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    /* color: #38342A; */
+    color: #ADADAD;
+    background: #000;
+}
+.tabbar a.button:hover {
+    background: #9ABEE8;
+    color: #FFF;
+}
+.tabbar a.button:active {
+    background: #478BD9;
+    border-radius: 0;
+    height: 40px;
+}
+.tabbar a.button.cur,
+.tabbar a.button.cur:hover {
+    color: #FFF;
+    background: #478BD9;
+}
+.siderooms li {
+    z-index: 1;
+    margin-right: 1px;
+}
+.tabbar li:first-child a.button,
+.tabbar li:last-child a.button {
+    border-radius: 0;
+}
+.closebutton,
+.minimizebutton {
+    color: #38342A;
+}
+.closebutton:hover,
+.minimizebutton:hover,
+.closebutton:active,
+.minimizebutton:active {
+    color: #FFF
+}
+
+/* UCSA edit */
+.dark .closebutton {
+  color: #ADADAD;
+}
+.dark .minimizebutton {
+  color: #ADADAD;
+}
+
+.button.notifying {
+    border-color: #AA8866!important;
+    background: #e3c3a3!important;
+}
+.button.notifying:hover {
+    border-color: #604020!important;
+    background: #cfaf8f!important;
+}
+.button.cur,
+.button.cur:hover {
+    color: #FFF!important;
+    background: #478BD9!important;
+    box-shadow: none;
+    border-color: #AAAAAA;
+    cursor: default;
+}
+.button.subtle-notifying {
+    color: #AA6600;
+}
+.button.subtle-notifying .icon-comment-alt:before,
+.button.notifying .icon-comment-alt:before {
+    content: "\f0e6";
+}
+
+.ps-room.ps-room-light.scrollable ul li button {
+    border-radius: 3px;
+    border: 1px solid #000;
+    margin-bottom: 2px;
+    background: #000;
+    color: #F2F2F2;
+    padding: 2px 5px;
+    text-shadow: 1px 1px #000;
+}
+
+.deltastreamweather {
+    background: url(http://i.imgur.com/OEB3hum.gif) scroll left top;
+}
+
+.pseudoweather {
+    background: url(https://i.imgur.com/sZg0ZBH.png) scroll left top;
+}
+
+.messagebar {
+    z-index: 10;
+}
+
+.foehint div {
+    z-index: 11;
+}
+
+
+.switchmenu button,
+.switchmenu button.disabled {
+    background: url(https://i.imgur.com/nJ6MDKV.png) !important;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 8pt;
+    width: 100px;
+    height: 28px;
+}
+
+.switchmenu button,
+.switchmenu button.disabled {
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+
+.movemenu button {
+    width: 150px;
+    height: 50px;
+    border-radius: 0;
+    border-width: 0;
+    box-shadow: none;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 10pt;
+    padding-top: 10px;
+}
+
+.movemenu button small {
+    text-align: center;
+    width: 62px;
+    margin-top: 2px;
+}
+
+.movemenu button small.type,
+.movemenu button small.pp {
+    color: white;
+}
+
+.movemenu button.type-Normal {
+    background: #8a8a59 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Normal:hover {
+    background: #79794e url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Fire {
+    background: #dd6610 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Fire:hover {
+    background: #b4530d url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Water {
+    background: #386ceb url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Water:hover {
+    background: #1753e3 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Electric {
+    background: #f0c108 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Electric:hover {
+    background: #c19b07 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Grass {
+    background: #5ca935 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Grass:hover {
+    background: #4a892b url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Ice {
+    background: #69c6c6 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Ice:hover {
+    background: #45b6b6 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Fighting {
+    background: #9d2721 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Fighting:hover {
+    background: #82211b url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Poison {
+    background: #803380 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Poison:hover {
+    background: #662966 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Ground {
+    background: #d4a82f url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Ground:hover {
+    background: #aa8623 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Flying {
+    background: #9180c4 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Flying:hover {
+    background: #7762b6 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Psychic {
+    background: #f61c5d url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Psychic:hover {
+    background: #d60945 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Bug {
+    background: #8d9a1b url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Bug:hover {
+    background: #616b13 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Rock {
+    background: #93802d url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Rock:hover {
+    background: #746523 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Ghost {
+    background: #554374 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Ghost:hover {
+    background: #413359 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Dragon {
+    background: #4c08ef url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Dragon:hover {
+    background: #3d07c0 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Dark {
+    background: #513f34 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Dark:hover {
+    background: #362a23 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Steel {
+    background: #9797ba url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Steel:hover {
+    background: #7a7aa7 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Fairy {
+    background: #f89dff url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-Fairy:hover {
+    background: #ce7fd5 url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button.type-undefined,
+.movemenu button.type-undefined:hover {
+    background: url(https://i.imgur.com/PerkGnk.png);
+}
+
+.movemenu button:disabled {
+    background: rgba(0, 0, 0, 0) url(https://i.imgur.com/PerkGnk.png) !important;
+    opacity: .5;
+}
+
+.dark .ps-room.ps-room-opaque,
+.dark .battle-log-add,
+.dark .battle-controls {
+    background: #1a1a1a;
+    color: #ddd;
+}
