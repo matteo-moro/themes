@@ -1,0 +1,171 @@
+html,
+* {
+    font-family: Calibri, FontAwesome !important;
+}
+.pfx-topbar {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    background: #222;
+    text-shadow: #fff 0 1px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+.nav a.button,
+a.button.replayDownloadButton {
+    display: inline;
+    text-shadow: 1px 1px #2d2d2d;
+}
+.battle-log {
+    position: absolute;
+    text-align: left;
+    border: none;
+    background: #1a1a1a;
+    top: 9px;
+    left: 640px;
+    right: -1px;
+    height: 360px;
+    overflow: auto;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    color: #f2f2f2;
+}
+.pfx-panel {
+    margin-left: -1px;
+    border-left: 1px solid #f2f2f2;
+    background: #1a1a1a;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .15);
+    color: #f2f2f2;
+}
+.battle,
+.innerbattle {
+    border: none !important;
+}
+
+#header,
+#wrapper .header {
+    height: 45px
+}
+.pfx-topbar,
+.pfx-topbar.header {
+    height: 60px;
+    border: 3px;
+}
+.logo {
+    display: none !important;
+}
+#header:after,
+.nav-first img,
+.ps-nav li a img {
+    /*content: url("http://i.imgur.com/1nGotRD.png");*/
+  	display: inline-block;
+  	width: 40px;
+  	height: 40px;
+  	margin-left: 10px;
+  	margin-top:5px;
+ 	  content: " ";
+  	background: url("https://pokemonshowdown.com/images/icon.png") no-repeat 0 0;        
+   	background-size: 100%;
+    z-index: 1;
+    position: relative;
+
+}
+
+
+.deltastreamweather {
+    background: url(http://i.imgur.com/OEB3hum.gif) scroll left top;
+}
+
+.pseudoweather {
+    background: url(https://i.imgur.com/sZg0ZBH.png) scroll left top;
+}
+
+.messagebar {
+    z-index: 10;
+}
+
+.foehint div {
+    z-index: 11;
+}
+
+
+.battle-log-add {
+    background-color: #2d2d2d !important;
+    border: none !important;
+}
+button {
+    cursor: pointer;
+    font-size: 9pt;
+    padding: 3px 10px;
+    background: #595959;
+    border: 0.2px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0px -1px #f2f2f2;
+    color: #f2f2f2;
+}
+button:hover {
+    background: #4d4d4d;
+}
+.button,
+.pfx-backbutton {
+    background: #595959;
+    color: #f2f2f2;
+    box-shadow: 0px -1px #f2f2f2;
+}
+.button:hover,
+.pfx-backbutton:hover {
+    background: #4d4d4d;
+    color: #f2f2f2;
+}
+.button.cur,
+.button:hover.cur {
+    background: #1c1c1c;
+    box-shadow: 0px -1px #f2f2f2;
+    color: #f2f2f2;
+}
+.chooser button:hover {
+    background: #262626;
+}
+.chooser button,
+.chooser button:hover {
+    border: 0.2px solid grey;
+    padding: 1px 3px;
+}
+.chooser {
+    float: right;
+    border: 1px solid #aaa;
+    background: #595959;
+    padding: 0;
+    height: 25px;
+    font-size: 9pt;
+    margin: 2px 5px 0 0;
+}
+.chooser button.sel,
+.chooser button.sel:hover {
+    border: 1px solid #999;
+    background: #808080;
+    padding: 1px 3px;
+}
+.chooser em {
+    float: left;
+    padding: 5px 6px 0;
+    height: 20px;
+    border-right: 1px solid #ccc;
+    background: #2d2d2d;
+    font-weight: 400;
+}
+h2.battle-history {
+    background: #2d2d2d;
+}
+.rightbar .trainersprite::after {
+    content: attr(title);
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    font-size: 11px;
+    opacity: 100%;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 3px;
+}
